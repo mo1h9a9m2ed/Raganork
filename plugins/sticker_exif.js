@@ -101,7 +101,7 @@ await m.client.sendMessage(m.jid, await skbuffer(res),MessageType.sticker,{quote
 addCommand({pattern: 'crop ?(.*)', fromMe: a, desc:'Crops sticker'}, (async (m, t) => { 
 var q = await m.client.downloadAndSaveMediaMessage({key: {remoteJid: m.reply_message.jid,id: m.reply_message.id},message: m.reply_message.data.quotedMessage});
 var au,p;
-var s = w.SOURAVKL11.split('|');
+var s = w.mo1h9a9m2ed.split('|');
 var au = s[1];
 var p = s[0];
 var res = await stickercrop(q,au,p,v)

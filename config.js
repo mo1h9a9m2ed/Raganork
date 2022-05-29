@@ -17,7 +17,7 @@ module.exports = {
     SESSION: process.env.SESSION || '',
     RG: process.env.RG || '919074309534-1632403322@g.us',
     PASSWORD: process.env.PASSWORD || '',
-    BOT_INFO: process.env.BOT_INFO || 'Raganork;Souravkl11;916282344739;https://img.20mn.fr/8lZUAQ_AR1i3TUcrrhy2Nik/640x410_robot-humanoide-oscar-rassure-jeunes-patients',
+    BOT_INFO: process.env.BOT_INFO || 'Raganork;mo1h9a9m2ed;916282344739;https://img.20mn.fr/8lZUAQ_AR1i3TUcrrhy2Nik/640x410_robot-humanoide-oscar-rassure-jeunes-patients',
     RBG_KEY: process.env.RBG_KEY || '',
     ALLOWED: process.env.ALLOWED || '91,94,212',
     CHATBOT: process.env.CHATBOT || 'off',
