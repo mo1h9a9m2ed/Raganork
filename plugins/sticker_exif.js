@@ -49,16 +49,16 @@ Module({
             author: match[1].includes(";")?match[1].split(";")[1]:"",
             packname: match[1].includes(";")?match[1].split(";")[0]:match[1],
             categories: STICKER_DATA.split(";")[2] || "😂",
-            android: "https://github.com/mo1h9a9m2ed/Raganork/",
-            ios: "https://github.com/mo1h9a9m2ed/Raganork/"
+            android: "https://github.com/souravkl11/Raganork-md/",
+            ios: "https://github.com/souravkl11/Raganork-md/"
         } }
         else {
             var exif = {
                 author: STICKER_DATA.split(";")[1] || "",
                 packname: STICKER_DATA.split(";")[0] || "",
                 categories: STICKER_DATA.split(";")[2] || "😂",
-                android: "https://github.com/mo1h9a9m2ed/Raganork/",
-                ios: "https://github.com/mo1h9a9m2ed/Raganork/"
+                android: "https://github.com/souravkl11/Raganork-md/",
+                ios: "https://github.com/souravkl11/Raganork-md/"
             }
         }
         return await m.sendReply(fs.readFileSync(await addExif(q,exif)),'sticker')
@@ -101,7 +101,7 @@ await m.client.sendMessage(m.jid, await skbuffer(res),MessageType.sticker,{quote
 addCommand({pattern: 'crop ?(.*)', fromMe: a, desc:'Crops sticker'}, (async (m, t) => { 
 var q = await m.client.downloadAndSaveMediaMessage({key: {remoteJid: m.reply_message.jid,id: m.reply_message.id},message: m.reply_message.data.quotedMessage});
 var au,p;
-var s = w.mo1h9a9m2ed.split('|');
+var s = w.SOURAVKL11.split('|');
 var au = s[1];
 var p = s[0];
 var res = await stickercrop(q,au,p,v)

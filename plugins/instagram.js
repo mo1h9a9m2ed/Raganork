@@ -23,7 +23,7 @@ const Config = require('../config');
 const s = require('../config');
 var need = "*_Need instagram link!_*";
 var downloading = "_*Downloading*_";
-var need_acc = "*_Need an instagram username!_*/ come :mohamed_eljamjoumi";
+var need_acc = "*_Need an instagram username!_*";
 var fail = "*_Download failed! Check your link and try again_*";
 var need_acc_s = "_Need an instagram username or link!_";
 let sourav = setting.MODE == 'public' ? false : true

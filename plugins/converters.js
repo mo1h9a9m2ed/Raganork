@@ -38,8 +38,8 @@ Module({
         author: STICKER_DATA.split(";")[1] || "",
         packname: STICKER_DATA.split(";")[0] || "",
         categories: STICKER_DATA.split(";")[2] || "😂",
-        android: "https://github.com/mo1h9a9m2ed/Raganork/",
-        ios: "https://github.com/mo1h9a9m2ed/Raganork/"
+        android: "https://github.com/souravkl11/Raganork-md/",
+        ios: "https://github.com/souravkl11/Raganork-md/"
     }
     if (message.reply_message.video === false && message.reply_message.image) {
         await message.sendReply(fs.readFileSync(await addExif(await sticker(savedFile),exif)), 'sticker')
